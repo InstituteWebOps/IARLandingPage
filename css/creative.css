@@ -15,7 +15,7 @@ body {
 }
 
 hr {
-    border-color: #F05F40;
+    border-color: #0d4870;
     border-width: 3px;
     max-width: 50px;
 }
@@ -45,6 +45,29 @@ h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.dark-text 
+{
+     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+     color: #0b3c5d;
+     font-weight: bold;
+}
+
+
+.head-image{
+    width: 330px;
+    height: 330px;
+    border: 7px solid #0b3c5d;;
+  
+
+}
+
+.team-image{
+    width: 250px;
+    height: 250px;
+    border: 7px solid #0b3c5d;;
+
+}
+
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -52,11 +75,11 @@ p {
 }
 
 .bg-primary {
-    background-color: #F05F40;
+    background-color: #328CC1;
 }
 
 .bg-dark {
-    background-color: #222222;
+    background-color: #1D2731;
     color: white;
 }
 
@@ -86,7 +109,7 @@ aside {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    color: #F05F40;
+    color: #3283ba;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -94,7 +117,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #2b6891;
 }
 
 .navbar-default .navbar-header .navbar-toggle {
@@ -114,12 +137,12 @@ aside {
 
 .navbar-default .nav>li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #F05F40;
+    color: #3283ba;
 }
 
 .navbar-default .nav>li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #F05F40 !important;
+    color: #3283ba !important;
     background-color: transparent;
 }
 
@@ -154,12 +177,12 @@ aside {
         border-color: rgba(34, 34, 34, 0.05);
     }
     .navbar-default.affix .navbar-header .navbar-brand {
-        color: #F05F40;
+        color: #3283ba;
         font-size: 14px;
     }
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #2b6891;
     }
     .navbar-default.affix .nav>li>a,
     .navbar-default.affix .nav>li>a:focus {
@@ -167,7 +190,7 @@ aside {
     }
     .navbar-default.affix .nav>li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #F05F40;
+        color: #3283ba;
     }
 }
 
@@ -269,7 +292,7 @@ header .header-content .header-content-inner p {
     color: white;
     opacity: 0;
     display: block;
-    background: rgba(240, 95, 64, 0.9);
+    background: rgba(50, 140, 193, 0.8);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -318,6 +341,12 @@ header .header-content .header-content-inner p {
     }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    #team {
+        text-align: center;
     }
 }
 
@@ -389,8 +418,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
     color: white;
-    background-color: #F05F40;
-    border-color: #F05F40;
+    background-color: #0d4870;
+    border-color: #0d4870;
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
@@ -403,8 +432,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
     color: white;
-    background-color: #ee4b28;
-    border-color: #ed431f;
+    background-color: #0b3c5d;
+    border-color: #0b3c5d;
 }
 
 .btn-primary:active,
