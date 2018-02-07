@@ -13,3 +13,8 @@
 .invisible {
   visibility: hidden;
 }
+
+#contact
+{
+  padding-bottom: 0px!important; 
+}

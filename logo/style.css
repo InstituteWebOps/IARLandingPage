@@ -1,0 +1,39 @@
+#rlb,#rg,#ry,#ro,#rr,#rb{
+    position: absolute;
+    background:rgb(50, 50, 50);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    text-align: center;
+    width: 20%;
+    height: auto;
+    display: none;   
+}
+#rlb{
+    top: 25.625%;
+    left: 48%;
+}
+#rg{
+    top: 45.625%;
+    left: 48%;
+}
+#rr{
+    top: 25.625%;
+    left: 2%;
+}
+#ro{
+    top: 45.625%;
+    left: 2%;
+}
+#ry{
+    top: 70.625%;
+    left: 25%;
+}
+#rb{
+    top: 6%;
+    left: 25%;
+}
+img{
+    height : auto;
+    width: 70%;
+}

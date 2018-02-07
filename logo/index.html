@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IAR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+    
+            $("#ltblue").hover(function(){
+                $('img').css("opacity", "0.5");
+                $('img').css("transition-duration", "0.75s");
+                $("#rlb").css("display","block");
+                $("#rlb").text("RANDOM LIGHT BLUE");
+                }, function(){
+                $('img').css("opacity", "1");
+                $("#rlb").hide();
+            });
+            $("#green").hover(function(){
+                $('img').css("opacity", "0.5");
+                $('img').css("transition-duration", "0.75s");
+                $("#rg").css("display","block");
+                $("#rg").text("RANDOM GREEN");
+                }, function(){
+                $('img').css("opacity", "1");
+                $("#rg").hide();
+            });
+            $("#yellow").hover(function(){
+                $('img').css("opacity", "0.5");
+                $('img').css("transition-duration", "0.75s");
+                $("#ry").css("display","block");
+                $("#ry").text("RANDOM YELLOW");
+                }, function(){
+                $('img').css("opacity", "1");
+                $("#ry").hide();
+            });
+            $("#orange").hover(function(){
+                $('img').css("opacity", "0.5");
+                $('img').css("transition-duration", "0.75s");
+                $("#ro").css("display","block");
+                $("#ro").text("RANDOM ORANGE");
+                }, function(){
+                $('img').css("opacity", "1");
+                $("#ro").hide();
+            });
+            $("#red").hover(function(){
+                $('img').css("opacity", "0.5");
+                $('img').css("transition-duration", "0.75s");
+                $("#rr").css("display","block");
+                $("#rr").text("RANDOM RED");
+                }, function(){
+                $('img').css("opacity", "1");
+                $("#rr").hide();
+                
+            });
+            $("#blue").hover(function(){
+                $('img').css("opacity", "0.5");
+                $('img').css("transition-duration", "0.75s");
+                $("#rb").css("display","block");
+                $("#rb").text("RANDOM BLUE");
+                }, function(){
+                $('img').css("opacity", "1");
+                $("#rb").hide();
+            });
+            
+        })
+    </script>
+    
+</head>
+<body>
+    <map name="IAR">
+            <area shape="circle" coords="656,207,65" id="ltblue">
+            <area shape="circle" coords="656,362,65" id="green">
+            <area shape="circle" coords="525,439,65" id="yellow">
+            <area shape="circle" coords="401,362,65" id="orange">
+            <area shape="circle" coords="399,207,65" id="red">
+            <area shape="circle" coords="525,136,65" id="blue">  
+    </map>
+
+    <div id ="rlb"></div>
+    <div id ="rg"></div>
+    <div id ="ry"></div>
+    <div id ="ro"></div>
+    <div id ="rr"></div>
+    <div id ="rb"></div>
+    
+    <img src="image/image.jpeg"  usemap="#IAR">
+   
+    <script>
+        $(document).ready(function(e) {
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
+    
+</body>
+</html>
+
